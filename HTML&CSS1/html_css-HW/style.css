@@ -1,0 +1,51 @@
+/* Body Portion With Changed Font and Font-Family */
+body {
+  font-family: "Serif, Georgia";
+  font-size: 16px;
+  padding: 1em;
+}
+
+/* Main Title Portion With Adjusted Purple Color, Alignment, and Letter Casing */
+.main-title {
+  color:darkorchid;
+  text-align: left;
+  text-transform:uppercase;
+}
+
+/* Base h1 Chunk */
+h1 {
+  font-size: 3em;
+  margin: 0.25em 0;
+}
+
+/* Subtitle Chunk With Adjusted Gold Color and Alignment */
+.subtitle {
+  color:goldenrod;
+  text-align: left;
+}
+
+/* Base h3 Chunk */
+h3 {
+  font-size: 2.0em;
+  margin: 0.25em 0;
+}
+
+/* Base Paragraph Chunk */
+p {
+  font-size: 1em;
+  color: black;
+}
+
+/* Chunk to Center Citation Link Above Image */
+a {
+  display: block;
+  text-align: center;
+}
+
+/* Main Image Chunk With Set Margins and 50% Sizing */
+.main-image {
+  display: block;
+  margin-right: auto;
+  margin-left:auto;
+  width: 50%;
+}
