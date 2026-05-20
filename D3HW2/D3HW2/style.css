@@ -1,0 +1,62 @@
+/* TBD */
+
+/* CSS For Multi-Line Chart */
+
+/* Line Design */
+.axis path,
+.axis line {
+    stroke: black; /* Black Fill Color */
+}
+
+/* Chart Text Design */
+.axis text {
+    font-family: sans-serif; /* sans-serif Font */
+    font-size: 12px; /* 12px Font Size */
+    fill: midnightblue; /* Midnight Blue Fill Color */
+}
+
+/* Men Category Line Design */
+.line-men {
+    fill: none;
+    stroke: steelblue; /* Steel Blue Fill Color */
+    stroke-width: 3px; /* 3px Line Width */
+}
+
+/* Women Category Line Design */
+.line-women {
+    fill: none;
+    stroke: crimson; /* Crimson Fill Color */
+    stroke-width: 3px; /* 3px Line Width */
+    stroke-dasharray: 6 4; /* Dashed Line Design for Variance */
+}
+
+/* Chart Title Design */
+.chart-title {
+    font-family: sans-serif; /* sans-serif Font */
+    font-size: 18px; /* 18px Font Size */
+    font-weight: bold; /* Bold Style */
+    fill: black; /* Black Fill Color */
+}
+
+/* Y-Axis Label Design */
+.axis-label {
+    font-family: sans-serif; /* sans-serif Font */
+    font-size: 12px; /* 12px Font Size */
+    fill: black; /* Black Fill Color */
+}
+
+/* Men Category Line Design */
+.label-men {
+    font-family: sans-serif; /* sans-serif Font */
+    font-size: 14px; /* 14px Font Size */
+    font-weight: bold; /* Bold Style */
+    fill:steelblue; /* Steel Blue Fill Color */
+}
+
+/* Women Category Line Design */
+.label-women {
+    font-family: sans-serif; /* sans-serif Font */
+    font-size: 14px; /* 14px Font Size */
+    font-weight: bold; /* Bold Style */
+    fill: crimson; /* Crimson Fill Color */
+}
