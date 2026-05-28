@@ -1,0 +1,93 @@
+/* TBD*/
+
+/* CSS Variables With Corresponding Colors */
+:root {
+    --primary-text: #333; /* Shade of Black */
+    --bg-color: #f8f9fa; /* White */
+    --chart-total: #2A9D8F; /* Teal */
+    --chart-men: #457B9D; /* Blue */
+    --chart-women: #E07A5F; /* Coral */
+}
+/* Body Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font Family Line */
+    background-color: var(--bg-color);
+    color: var(--primary-text);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Line to Center Content */
+}
+/* Main Card Container */
+.container {
+    max-width: 900px; /* 900px Container Width */
+    background: white; /* Line White Background Color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Line For Subtle Shadow */
+}
+/* Styling for Header */
+h1 {
+    margin-top: 0;
+    font-size: 1.8rem; /* Font Size Line */
+    color: #222; /* Line For Shade of Black-Grey Font Color */
+}
+/* Styling For Intro Text */
+.description {
+    font-size: 1rem; /* Font Size Line */
+    line-height: 1.5;
+    color: #555; /* Line for Shade of Black-Grey Font Color */
+    margin-bottom: 20px;
+}
+/* Styling For Dropdown Section Controls */
+.controls {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: whitesmoke;
+    border-radius: 6px;
+    display: inline-block;
+}
+/* Styling For Dropdown Section Select */
+select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+/* Styling For Border When Interacting With Dropdown */
+select:focus {
+    outline: none;
+    border-color: var(--chart-men);
+}
+/* Axis Title Function */
+.axis-label {
+    font-size: 12px;
+    fill: black;
+}
+/* Axis Function For Lines and Tick Marks */
+.axis path,
+.axis line {
+    stroke: whitesmoke;
+}
+/* Tick Text Function For Text at Tick Marks */
+.tick text {
+    font-size: 11px;
+    fill: #444; /* Shade of Black-Grey Fill Color */
+}
+/* Long Function For Floating Tooltip Styling */
+.tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 10px;
+    font-size: 13px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    border-radius: 6px;
+    pointer-events: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: opacity 0.2s ease;
+    z-index: 10;
+}
