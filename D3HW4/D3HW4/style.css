@@ -1,0 +1,86 @@
+/* TBD*/
+
+/* root Function to Define Main Colors */
+:root {
+    --bg-color: whitesmoke; /* Specialized White Color */
+    --card-bg: white; /* White Color */
+    --text-main: black; /* Black Color */
+    --text-muted: gray; /* Gray Color */
+    --line-color: lightgray; /* Specialized Grey Color */
+}
+
+/* Function to Style Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font Family Designation */
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center; /* Line to Center Chart Within Space */
+}
+
+/* Function to Style Container That Holds Title, Description, and Chart */
+.container {
+    max-width: 1050px;
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* Function to Style Main Title */
+h1 {
+    margin-top: 0;
+    font-size: 2.2rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* Function to Style Introductory Description Under Title */
+.description {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    margin-bottom: 30px;
+    max-width: 900px;
+}
+
+/* Function to Hide Y Axis Vertical Line For Simplicity */
+.y-axis path,
+.y-axis line {
+    display: none; 
+}
+
+/* Function to Style Y Axis Occupation Name Text */
+.y-axis text {
+    font-size: 12px;
+    fill: black;
+    font-weight: 500;
+}
+
+/* Function to Style X Axis Horizontal Line */
+.x-axis path,
+.x-axis line {
+    stroke: lightgray;
+}
+
+/* Function to Style Numbers Under X Axis Line */
+.x-axis text {
+    font-size: 12px;
+    fill: gray;
+}
+
+/* Function to Style Label Under X Axis Line and Numbers */
+.axis-label {
+    font-weight: 600;
+    fill: dimgray;
+    font-size: 13px;
+}
+
+/* Function to Style Data Numbers at The End of Each Lollipop Stick */
+.value-label {
+    font-size: 11px;
+    fill: dimgray;
+    font-weight: 600;
+}
